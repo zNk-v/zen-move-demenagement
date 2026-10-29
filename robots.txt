@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://znk-v.github.io/zen-move-demenagement/sitemap.xml

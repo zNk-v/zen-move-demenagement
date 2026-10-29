@@ -99,7 +99,7 @@ p{margin:0}
 .over__hex{width:12px;height:13px;background:var(--rouge);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
 .tag{display:inline-flex;align-items:stretch;border:2px solid var(--noir);font-family:var(--f-display);font-size:.8rem;line-height:1;margin-bottom:22px;text-transform:uppercase;letter-spacing:.08em}
 .tag>span{padding:7px 10px;display:flex;align-items:center;white-space:nowrap}
-@media (max-width:420px){.tag{font-size:.72rem}.tag>span{padding:6px 8px}}
+@media (max-width:420px){.tag{font-size:.72rem;max-width:100%}.tag>span{padding:6px 8px}.tag .tag__room{white-space:normal;line-height:1.2}}
 .tag__n{background:var(--noir);color:#fff;font-weight:700;font-stretch:80%}
 .tag__of{font-weight:400;padding-left:0 !important;background:var(--noir);color:#fff;opacity:1}
 .tag__room{font-weight:600;font-stretch:110%;font-style:italic}
